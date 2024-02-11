@@ -1,0 +1,10 @@
+networkx
+scikit-learn
+nltk
+Sphinx
+numpydoc
+textblob
+pyparsing
+jellyfish
+orderedset
+community

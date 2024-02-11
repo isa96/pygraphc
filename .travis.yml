@@ -1,0 +1,14 @@
+language: python
+python: "2.7"
+sudo: required
+addons:
+  apt:
+    packages:
+      - gfortran
+      - libblas-dev
+      - liblapack-dev
+      - libopenblas-base
+      - libopenblas-dev
+before_install: "pip install numpy scipy pyparsing"
+install: "pip install ."
+script: "pygraphc --help"

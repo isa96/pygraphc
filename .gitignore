@@ -1,0 +1,14 @@
+*.pyc
+**/.idea/
+**/result/
+**/venv/
+
+/dist/
+/*.egg-info
+/profile.txt
+
+/bin/
+/include/
+/lib/
+/local/
+/share/
